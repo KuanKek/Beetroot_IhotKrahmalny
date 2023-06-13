@@ -63,6 +63,8 @@ html {
 
 .preview h1 {
     font-size: 48px;
+    width: 72%;
+    align-items: start;
 }
 
 .preview img {
