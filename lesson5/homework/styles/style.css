@@ -117,6 +117,16 @@ html {
     align-items: center;
     margin-bottom: 25px;
 }
+
+.block_with_programs .progm_logo {
+    padding-left: 35px;
+}
+
+.block_with_programs .progm_logo.figma {
+    padding-left: 50px;
+}
+
+
 .block_with_programs p {
     text-align: center;
     color: #828282;
