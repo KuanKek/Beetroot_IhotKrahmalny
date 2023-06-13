@@ -12,17 +12,17 @@ body {
 
 html {
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
 }
 
 .site-header,
 .site-footer {
   align-items: center;
   justify-content: space-between;
-}
-
-
-.flex {
-    display: flex;
 }
 
 .site-header {
@@ -36,10 +36,14 @@ html {
     margin-top: 28px;
     gap: 2rem;
     list-style-type: none;
-    color: #828282;
 }
 
-.site-nav li:hover {
+.site-nav li a {
+    color: #828282;
+    text-decoration: none;
+}
+
+.site-nav li a:hover {
     cursor: pointer;
     color: #070707;
 
@@ -61,6 +65,8 @@ html {
 
 .preview h1 {
     font-size: 48px;
+    width: 72%;
+    align-items: start;
 }
 
 .preview img {
@@ -113,6 +119,16 @@ html {
     align-items: center;
     margin-bottom: 25px;
 }
+
+.block_with_programs .logo {
+    padding-left: 40px;
+}
+
+.block_with_programs .logo_figma {
+    padding-left: 50px;
+}
+
+
 .block_with_programs p {
     text-align: center;
     color: #828282;
@@ -185,6 +201,11 @@ footer .icon_sotialmedia {
 
 footer .icon_sotialmedia img {
     margin-right: 20px;
+    cursor: pointer;
+}
+
+footer span {
+    cursor: default;
 }
 
 
