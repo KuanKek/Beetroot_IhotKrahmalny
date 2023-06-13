@@ -25,6 +25,7 @@ html {
     display: flex;
 }
 
+/* Header styles*/
 .site-header {
     margin-bottom: 28px;
     justify-content: center;
@@ -44,6 +45,7 @@ html {
     color: #070707;
 
 }
+/* Header styles*/
 
 .line-grey {
     display: flex;
