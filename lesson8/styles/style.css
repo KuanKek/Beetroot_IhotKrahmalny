@@ -1,12 +1,193 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+html {
+    font-family: 'Open Sans', sans-serif;
 }
-html,
-body {
-  height: 100%;
+
+.site-header,
+.site-footer {
+  align-items: center;
+  justify-content: space-between;
 }
+
+
+.flex {
+    display: flex;
+}
+
+/* Header styles*/
+.site-header {
+    margin-bottom: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-nav {
+    font-size: 18px;
+    margin-top: 28px;
+    gap: 2rem;
+    list-style-type: none;
+    color: #828282;
+}
+
+.site-nav li:hover {
+    cursor: pointer;
+    color: #070707;
+
+}
+/* Header styles*/
+
+.line-grey {
+    display: flex;
+    color: #828282;
+    margin-bottom: 12px;
+    justify-content: center;
+    align-content: center;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview h1 {
+    font-size: 48px;
+    width: 72%;
+    align-items: start;
+}
+
+.preview img {
+    width: 970px;
+    height: 387px;
+}
+
+.about_me {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_me h2 {
+    font-size: 34px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.about_me p {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.skills {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h2{
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.skills p{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.all_blocks {
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+}
+
+.block_with_programs img {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.block_with_programs .progm_logo {
+    padding-left: 35px;
+}
+
+.block_with_programs .progm_logo.figma {
+    padding-left: 50px;
+}
+
+
+.block_with_programs p {
+    text-align: center;
+    color: #828282;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.portfolio  {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 50px;
+    font-size: 34px;
+}
+
+.portfolio a {
+    text-align: center;
+    width: 200px;
+    color: #070707;
+    
+}
+
+.site-footer {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.site-footer h2 {
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.site-footer p {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.site-footer span {
+    font-size: 14px;
+    color: #828282;
+}
+
+footer .send_massage {
+    font-family: 'Open Sans', sans-serif;
+    border: #070707;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: #070707;
+    width: 180px;
+    height: 44px;
+    border-radius: 22px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+footer .icon_sotialmedia {
+    gap: 3rem;
+    margin-bottom: 60px;
+}
+
+footer .icon_sotialmedia img {
+    margin-right: 20px;
+}
+
 

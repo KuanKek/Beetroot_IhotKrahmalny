@@ -12,6 +12,7 @@ body {
 
 html {
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .site-header,
@@ -37,10 +38,14 @@ html {
     margin-top: 28px;
     gap: 2rem;
     list-style-type: none;
-    color: #828282;
 }
 
-.site-nav li:hover {
+.site-nav a {
+    color: #828282;
+    text-decoration: none;
+}
+
+.site-nav a:hover {
     cursor: pointer;
     color: #070707;
 
