@@ -1,0 +1,253 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.site-header,
+.site-footer {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.site-logo {
+    display: flex;
+    padding-right: 150px;
+}
+
+
+.site-logo img{
+    margin-top: 27px;
+}
+
+.site-nav {
+    margin-top: 28px;
+    font-size: 16px;
+    gap: 2rem;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-right: 180px;
+}
+
+.site-nav li>a {
+    color: #2F281E;
+    text-decoration: none;
+}
+
+.site-nav li>a:hover {
+    color: #FF9900;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buttons {
+    gap: 2rem;
+    margin-top: 17px;
+    margin-right: 120px;
+}
+
+.buttons>.sign-in-button {
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    color: #2F281E;
+    background-color: white;
+    cursor: pointer;
+}
+
+.clasic-button {
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #FF9900;
+    color: white;
+    background-color: #FF9900;
+    cursor: pointer;
+}
+
+.design {
+    justify-content: center;
+    align-items: center;
+    padding-left: 38px;
+    margin-top: 50px;
+}
+
+.design>.text-wrapper>h1 {
+    font-size: 44px;
+    font-weight: bold;
+    color: #2F281E;
+    margin-bottom: 30px;
+}
+
+.text-wrapper>p {
+    color: #544837;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.tools {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools>h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    width: 580px;
+    height: 90px;
+    margin-bottom: 50px;
+}
+
+.tools>.all-blocks {
+    margin-bottom: 70px;
+    gap: 40px;
+}
+
+.tools>.all-blocks .block>img {
+    margin-bottom: 30px;
+}
+
+.tools>.all-blocks .block>h5 {
+    color: #2F281E;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.tools>.all-blocks .block>p {
+    height: 52px;
+    width: 270px;
+    color: #544837;
+    font-size: 16px;
+}
+
+.design-professional {
+    margin-top: 100px;
+    justify-content: center;
+    gap: 110px;
+}
+
+.design-professional img {
+    padding-bottom: 100px;
+}
+
+
+.text-wrapper-for-profesional p {
+    font-size: 16px;
+    color: #544837;
+}
+
+.text-wrapper-for-profesional h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2F281E;
+    margin-bottom: 20px;
+}
+
+
+.text-wrapper-for-profesional>.span {
+    width: 525px;
+    height: 78px;
+    font-size: 16px;
+    color: #544837;
+    margin-bottom: 10px;
+}
+
+.text-wrapper-for-profesional>.text-inside {
+    height: 525px;
+    width: 324px;
+}
+
+.text-wrapper-for-profesional>.text-inside h6 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.text-wrapper-for-profesional>.text-inside p {
+    font-size: 16px;
+    width: 480px;
+}
+
+.product {
+    gap: 120px;
+}
+
+.checkbox {
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.site-footer {
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.site-footer img {
+    padding-bottom: 165px;
+    padding-right: 100px;
+}
+
+.site-footer .footer-list {
+    width: 135px;
+}
+
+.site-footer .footer-list h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.site-footer .footer-list li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* .site-footer .footer-list li:hover {
+    cursor: pointer;
+} */
+
+.site-footer .feedback {
+    display: flex;
+    margin-left: 24px;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: start;
+}
+
+.site-footer .feedback h4 {
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.site-footer .feedback input[type="text"] {
+    border: 1px solid #BCD0E5;
+    width: 340px;
+    height: 50px;
+    color: aqua;
+}
+
+.site-footer .feedback input[type="text"]::placeholder {
+    color: #BCD0E5;
+    padding-left: 10px;
+}
+
+.site-footer .feedback input[type="text"]::placeholder:active{
+    border: 1px solid #BCD0E5;
+}
