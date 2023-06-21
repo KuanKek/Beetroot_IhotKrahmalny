@@ -181,6 +181,7 @@ ul {
 
 .text-wrapper-for-profesional>.text-inside p {
     font-size: 16px;
+    width: 480px;
 }
 
 .product {
@@ -195,12 +196,16 @@ ul {
 
 .site-footer {
     margin-top: 100px;
-    gap: 130px;
+    gap: 100px;
 }
 
 .site-footer img {
-    padding-bottom: 80px;
+    padding-bottom: 165px;
     padding-right: 100px;
+}
+
+.site-footer .footer-list {
+    width: 135px;
 }
 
 .site-footer .footer-list h4{
@@ -212,4 +217,37 @@ ul {
 .site-footer .footer-list li {
     margin-bottom: 15px;
     font-size: 16px;
+}
+
+/* .site-footer .footer-list li:hover {
+    cursor: pointer;
+} */
+
+.site-footer .feedback {
+    display: flex;
+    margin-left: 24px;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: start;
+}
+
+.site-footer .feedback h4 {
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.site-footer .feedback input[type="text"] {
+    border: 1px solid #BCD0E5;
+    width: 340px;
+    height: 50px;
+    color: aqua;
+}
+
+.site-footer .feedback input[type="text"]::placeholder {
+    color: #BCD0E5;
+    padding-left: 10px;
+}
+
+.site-footer .feedback input[type="text"]::placeholder:active{
+    border: 1px solid #BCD0E5;
 }
