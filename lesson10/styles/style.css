@@ -86,15 +86,10 @@
     gap: 30px;
 }
 
-.site-main .all-blocks .block>.icons {
+.site-main .all-blocks .block .icons {
     height: 270px;
     width: 270px;
 }
-
-
-
-
-
 
 
 
@@ -112,15 +107,19 @@
 }
   
 .images:hover .icons:nth-of-type(2) {
-    display: block;
+    display: flex;
     background-color: #18B5DC;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
 }
   
-.images:hover {
+.images:hover .icons:nth-of-type(2) img:hover {
     cursor: pointer;
 }
-
-
+/* .images:hover {
+    cursor: pointer;
+} */
 
 
 
@@ -151,6 +150,7 @@
 }
 
 .site-footer>img {
+    margin-top: 40px;
     height: 60px;
     width: 170px;
 }
