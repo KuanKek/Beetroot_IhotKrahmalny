@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.center {
+    margin-bottom: 100px;
+}
+
+.center>h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+
+.ap {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+    grid-template-rows: repeat(3, minmax(50px, 1fr));
+    grid-template-areas:
+    "jezael-melgoza tom-w tom-w"
+    "johan-muchet johan-muchet federico-di-dio"
+    "casey-horner alexander-rotker alexander-rotker";
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.ap>img {
+    width: 100%;
+}
+
+.ap>img:nth-child(2) {
+    grid-area: tom-w;
+}
+  
+.ap>img:nth-child(3) {
+    grid-area: johan-muchet;
+}
+  
+.ap>img:nth-child(6) {
+    grid-area: alexander-rotker;
+}
+
+
+.still-life {
+    display: grid;
+    grid-template: repeat(4, minmax(50px, 1fr)) / repeat(3, minmax(50px, 1fr));
+    grid-template-areas:
+      "robert sean sean"
+      "john john dave"
+      "john john dave"
+      "leonard leonard rob";
+    gap: 1.5rem;
+    padding: 1rem;
+  
+}
+  
+.still-life>img {
+    width: 100%;
+}
+  
+.still-life>img:nth-child(2) {
+    grid-area: sean;
+}
+
+
+.still-life>img:nth-child(3) {
+    grid-area: john;
+}
+  
+.still-life>img:nth-child(4) {
+    grid-area: dave;
+}
+  
+.still-life>img:nth-child(5) {
+    grid-area: leonard;
+}
+
+.portrait {
+    display: grid;
+    grid-template: repeat(5, minmax(50px, 1fr)) / repeat(3, minmax(50px, 1fr));
+    grid-template-areas:
+      "pooja dom seth1"
+      "devn dom noah"
+      "sincerely seth2 noah"
+      "sincerely melissa melissa"
+      "brooke brooke clem";
+    gap: 1.5rem;
+    padding: 1rem;
+  
+}
+
+.portrait>img {
+    width: 100%;
+}
+
+/* За цифрами не вийшло*/
+.portrait>img:nth-child(2) {
+    grid-area: dom;
+    /* grid-area: 1 / 2 / 2 / 2; */
+}
+
+.portrait>img:nth-child(5) {
+    grid-area: noah;
+    /* grid-area: 2 / 3 / 3 / 3; */
+}
+
+.portrait>img:nth-child(6) {
+    grid-area: sincerely;
+    /* grid-area: 3 / 1 / 4 / 1; */
+}
+
+.portrait>img:nth-child(8) {
+    grid-area: melissa;
+    /* grid-area: 4 / 2 / 4 / 3; */
+}
+
+.portrait>img:nth-child(9) {
+    grid-area: brooke;
+    /* grid-area: 5 / 1 / 5 / 2; */
+}
