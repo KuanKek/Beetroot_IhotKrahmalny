@@ -18,19 +18,60 @@
     src: url(../assets/fonts/Staatliches-Regular.ttf);
 }
 
+@font-face {
+    font-family: Tourney;
+    src: url(../assets/fonts/Tourney-VariableFont_wdth\,wght.ttf);
+}
+
 .flex {
     display: flex;
 }
 
+
+.s-before::before{
+    content: "<Text>";
+    color: black;
+    background-color: lightgray;
+}
+
+.s-after::after {
+    content: "</Text>";
+    color: black;
+    background-color: lightgray
+}
+
+.chapter-section {
+    margin-top: 100px;
+    padding-left: 9.5%;
+    width: 1200px;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+}
+
 .chapter {
+    position: relative;
     font-family: "Francois One";
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 70px;
 }
 
 .chapter-span {
+    position: absolute;
     font-family: "Farro";
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
 }
 
-.s-uderline {
+.chapter-text {
+    font-family: "PT Sans R";
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.s-underline {
     text-decoration: underline;
 }
 
@@ -47,8 +88,16 @@
 }
 
 .site-header {
+    align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
+}
+
+.header-span {
+    font-size: 22px;
+    font-family: "Tourney";
+    padding-right: 3%;
+    justify-content: start;
 }
 
 .site-nav {
@@ -62,3 +111,23 @@
     list-style: none;
 }
 
+.site-nav li:not(:nth-child(2)) {
+    cursor: pointer;
+}
+
+.site-header>img {
+    padding-left: 40%;
+}
+
+main .chapter-section:nth-child(3) {
+    margin-top: 200px;
+}
+
+.text-colume {
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+main .chapter-section:nth-child(4) {
+    margin-top: 700px;
+}
