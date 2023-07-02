@@ -1,0 +1,177 @@
+@font-face {
+    font-family: PT Sans R;
+    src: url(../assets/fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Farro;
+    src: url(../assets/fonts/Farro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Francois One;
+    src: url(../assets/fonts/FrancoisOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Staatliches;
+    src: url(../assets/fonts/Staatliches-Regular.ttf);
+}
+
+@font-face {
+    font-family: Tourney;
+    src: url(../assets/fonts/Tourney-VariableFont_wdth\,wght.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.s-before::before{
+    content: "<Text>";
+    color: black;
+    background-color: lightgray;
+}
+
+.s-after::after {
+    content: "</Text>";
+    color: black;
+    background-color: lightgray
+}
+
+.chapter-section {
+    margin-top: 100px;
+    padding-left: 9.5%;
+    width: 785px;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+}
+
+.chapter {
+    position: relative;
+    font-family: "Francois One";
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 70px;
+}
+
+.chapter-span {
+    position: absolute;
+    font-family: "Farro";
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.chapter-text {
+    font-family: "PT Sans R";
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.s-underline {
+    text-decoration: underline;
+}
+
+.s-italic {
+    font-style: italic;
+}
+
+.s-background {
+    background-color: lightgray;
+}
+
+.s-bold {
+    font-weight: bold;
+}
+
+.site-header {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-span {
+    font-size: 22px;
+    font-family: "Tourney";
+    padding-right: 3%;
+    justify-content: start;
+}
+
+.site-nav {
+    gap: 0.5rem;
+    text-transform: uppercase;
+    font-family: "Staatliches";
+    font-size: 22px;
+}
+
+.site-nav li {
+    list-style: none;
+}
+
+.site-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-nav li:not(:nth-child(2)) {
+    cursor: pointer;
+}
+
+.site-header>img {
+    padding-left: 40%;
+}
+
+
+main>div[class="flex"] {
+    gap: 3rem;
+}
+
+
+.pos-rel {
+    position: relative;
+    width: 385px;
+    margin-left: 125px;
+    margin-top: 100px;
+}
+
+.nav-chapter {
+    position: fixed;
+}
+
+.nav-chapter li {
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+.nav-chapter a {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+}
+
+
+.text-colume {
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+
+
+main .chapter-section:nth-child(2) {
+    margin-top: 200px;
+}
+
+main .chapter-section:nth-child(3) {
+    margin-top: 300px;
+}
+
+main .chapter-section:nth-child(4) {
+    margin-top: 950px;
+}
