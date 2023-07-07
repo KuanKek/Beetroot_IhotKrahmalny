@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/sign-up.css'>
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main class="site-main flex">
+        <div class="block">
+            <h1>Create an Account</h1>
+            <form class="form-sign-up">
+                <div class="flex form-name">
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="first-name">First Name</label>
+                        <input class="form-control" type="text" name="first-name" id="first-name">
+                    </div>
+        
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="last-name">Last Name</label>
+                        <input class="form-control" type="text" name="last-name" id="last-name">
+                    </div>
+                </div>
+
+                <div class="form-email">
+
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="email">Email</label>
+                        <input class="form-control" type="email" name="email" id="email">
+                        <p>We'll never share your email with anyone else.</p>
+                    </div>
+
+                </div>
+
+                <div class="form-gender flex">
+                    <div>
+                        <input type="radio" id="male" name="drone" value="male"
+                               checked>
+                        <label class="form-lable" for="male">Male</label>
+                      </div>
+                  
+                      <div>
+                        <input type="radio" id="female" name="drone" value="female">
+                        <label class="form-lable" for="female">Female</label>
+                      </div>
+                </div>
+
+                <div class="form-country-city flex">
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="country">Country</label>
+                        <select class="form-select" name="country" id="country">
+                            <option value="select">Select</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="city">City</label>
+                        <input class="form-control" type="text" name="city" id="city">
+                    </div>
+                </div>
+                <button class="sign-up">Sign Up</button>
+            </form>
+            <p class="span-sign-up">By clicking the 'Sign Up' button, you confirm that you accept our <br> <a href="">Terms of Use</a>
+                and <a href="">Privacy Policy</a>.</p>
+            
+            <hr class="line">
+
+            <footer class="footer-sign-up flex">
+                <p>Have an account?</p>
+                <a href="">Log In</a>
+            </footer>
+
+        </div>
+
+
+
+
+        <div class="block">
+            <h1>Profile</h1>
+            <div class="profile-foto flex">
+                <img src="./assets/images/photo.png" alt="Your photo here">
+                <div class="photo-input flex-column">
+                    <label class="profile-foto-lable" for="profile-foto"><img src="./assets/images/photo-icon.svg" alt="photo-icon"></label>
+                    <button><input type="image" name="profile-foto" id="profile-foto"></button>
+                    <p>Up to 1 MB (300x300 px)</p>
+                </div>
+                <button name="del-foto" id="del-foto"><img src="./assets/images/trash-icon.svg" alt="trash-icon"></button>
+            </div>
+
+            <form class="form-sign-up">
+                <div class="flex form-name">
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="new-name">Name</label>
+                        <input class="form-control" type="text" name="new-name" id="new-name">
+                    </div>
+        
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="new-email">Email</label>
+                        <input class="form-control" type="email" name="new-email" id="new-email">
+                    </div>
+                </div>
+
+                <div class="form-country-city flex">
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="new-country">Country</label>
+                        <select class="form-select" name="new-country" id="new-country">
+                            <option value="select">Select</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="new-city">City</label>
+                        <input class="form-control" type="text" name="new-city" id="new-city">
+                    </div>
+                </div>
+
+                <div class="flex form-name">
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="zip-code">Zip Code</label>
+                        <input class="form-control" type="text" name="zip-code" id="zip-code">
+                    </div>
+        
+                    <div class="form-field flex-column">
+                        <label class="form-lable" for="phone-number">Phone Number</label>
+                        <input class="form-control" type="number" name="phone-number" id="phone-number">
+                    </div>
+                </div>
+                <button class="update-button">Update</button>
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
