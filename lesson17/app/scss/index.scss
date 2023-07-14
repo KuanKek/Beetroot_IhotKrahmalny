@@ -1,0 +1,128 @@
+.site-header {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        color: #898F8F;
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    h1 {
+        color: gold;
+        font-size: 60px;
+    }
+    
+    &__img {
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+        justify-content: center;
+
+        &__line {
+            border: 1px solid gold;
+            height: 0;
+            width: 210px;
+        }
+    }
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+
+    .line-divider {
+        border: 1px solid gold;
+    }
+}
+
+.content-left,
+.content-right {
+    height: 430px;
+    width: 430px;
+}
+
+.content-left {
+    display: flex;
+    border: 4px solid;
+    border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 11' width='13' height='13'><g fill='gold'><rect width='1' height='5'/><rect y='6' width='1' height='5'/><rect x='10' y='6' width='1' height='5'/><rect x='10' width='1' height='5'/><rect width='5' height='1'/><rect y='10' width='5' height='1'/><rect x='6' y='10' width='5' height='1'/><rect x='6' width='5' height='1'/></g></svg>") 5;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+
+    h3 {
+        color: #666666;
+        font-size: 36px;
+        cursor: default;
+    }
+
+    &__line {
+        border: 1px solid gold;
+        height: 0;
+        width: 100px;
+    }
+
+    h4 {
+        color: #666666;
+        font-size: 24px;
+        cursor: default;
+    }
+
+    &__social-media {
+        display: flex;
+        gap: 0.7rem;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    p {
+        color: #333333;
+        font-size: 14px;
+        text-align: center;
+        cursor: default;
+    }
+
+    &__theer-lines {
+        display: flex;
+        gap: 5px;
+
+
+        &__little {
+        border: 1px solid gold;
+        height: 0;
+        width: 10px;
+
+        }
+
+        &__big {
+        border: 1px solid gold;
+        height: 0;
+        width: 20px;
+        }
+
+    }
+    &__button-view {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #666666;
+        font-size: 12px;
+        border: 1px solid gold;
+        background-color: transparent;
+        width: 100px;
+        height: 22px;
+        cursor: pointer;
+    }
+}
