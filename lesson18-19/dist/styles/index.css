@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.under-header {
+  height: 600px;
+  width: 1440px;
+  background: url(../../assets/images/bg-image.png);
+}
+
+/*# sourceMappingURL=index.css.map */
