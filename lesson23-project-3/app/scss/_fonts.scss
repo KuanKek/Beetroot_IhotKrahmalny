@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Playfair-Display-Italic;
+    src: url(../../assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Lato Regular;
+    src: url(../../assets/fonts/lato/Lato-Regular.ttf);
+}
+
+$playfair: Playfair-Display-Italic;
+$lato: Lato Regular;
